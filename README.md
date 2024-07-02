@@ -12,3 +12,15 @@ SOLUZIONE 1
 8- Quando il ciclo termina controllo il valore della variabile di controllo
 9- SE questa condizione e' vera mostro il messaggio di benvenuto. 
 10- ALTRIMENTI: mostro che il messaggio non e' stato inviato.
+
+
+SNACK 2:
+Crea un array vuoto.
+Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell'array
+
+SOLUZIONE 2
+1- Creo un array vuoto.
+2- Faccio eseguire un ciclo per 6 iterazioni. 
+3- All'interno faro' inserire un numero all'utente tramite prompt.
+4- ? SE il numero e' dispari, inserirlo nell'array. 
+5- ALTRIMENTI: non commetto azioni. 
