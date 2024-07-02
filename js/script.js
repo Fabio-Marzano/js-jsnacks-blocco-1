@@ -1,3 +1,5 @@
+//SNACK 1//
+
 //CREO L'ARRAY PER I DATI DELL'UTENTE//
 let guests = ['Alessandro Del piero', 'David Trezeguet', 'Paulo Dybala', 'Leonardo Bonucci'];
 //IMPOSTO VARIABILE DI CONTROLLO//
