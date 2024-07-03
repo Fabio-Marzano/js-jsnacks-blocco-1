@@ -29,3 +29,23 @@ document.getElementById('check-guest').addEventListener('click', function () {
     }
 
 });
+
+//SNACK 2//
+//GENERO L'ARRAY//
+let numbers = []; 
+
+//AVVIO IL CICLO PER 6 ITERAZIONI//
+
+for (let i = 0; i < 6; i++) {
+    //CONSENTO ALL'UTENTE DI INSERIRE IL NUMERO//
+    let num = prompt('Inserisci un numero');
+    // CONTROLLO SE IL NUMERO INSERITO E' DISPARI//
+    if (num % 2 != 0) {
+        //AGGIUNGO IL NUMERO ALL'ARRAY//
+        numbers.push(num);
+    }
+    
+}
+
+//MOSTRO L'ARRAY//
+console.log(numbers);
