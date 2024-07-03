@@ -58,14 +58,23 @@ document.getElementById('send-number').addEventListener('click', function () {
     let num = document.getElementById('number').value;
 
     //CONTROLLO CHE IL NUMERO INSERITO ABBIA 4 CIFRE//
-    if(num.length === 4){}
-
-    //ASSEGNO VARIABILE CONTENENTE LA SOMMA DELLE CIFRE//
-    let somma = 0;
+    if(num.length === 4){
+        //ASSEGNO VARIABILE CONTENENTE LA SOMMA DELLE CIFRE//
+        let somma = 0;
     
-    for (let i = 0; i < num.length; i++) {
-        console.log(num[i]);
-        somma += parseInt(num[i]);
-        console.log(somma);
+        for (let i = 0; i < num.length; i++) {
+            console.log(num[i]);
+            somma += parseInt(num[i]);
+            console.log(somma);
+        }
+        
+      
+        
     }
+    else{
+        alert('Non hai inserito un numero di 4 cifre');
+    }
+
+
+    
 });
