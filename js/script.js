@@ -54,12 +54,18 @@ document.getElementById('check-guest').addEventListener('click', function () {
 //SNACK 3//
 
 document.getElementById('send-number').addEventListener('click', function () {
-    
+    //RECUPERO IL VALORE DAL CAMPO INPUT//
     let num = document.getElementById('number').value;
+
+    //CONTROLLO CHE IL NUMERO INSERITO ABBIA 4 CIFRE//
+    if(num.length === 4){}
+
     //ASSEGNO VARIABILE CONTENENTE LA SOMMA DELLE CIFRE//
     let somma = 0;
     
     for (let i = 0; i < num.length; i++) {
         console.log(num[i]);
+        somma += parseInt(num[i]);
+        console.log(somma);
     }
 });
