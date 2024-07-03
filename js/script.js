@@ -32,20 +32,34 @@ document.getElementById('check-guest').addEventListener('click', function () {
 
 //SNACK 2//
 //GENERO L'ARRAY//
-let numbers = []; 
+//let numbers = []; 
 
 //AVVIO IL CICLO PER 6 ITERAZIONI//
 
-for (let i = 0; i < 6; i++) {
+//for (let i = 0; i < 6; i++) {
     //CONSENTO ALL'UTENTE DI INSERIRE IL NUMERO//
-    let num = prompt('Inserisci un numero');
+   // let num = prompt('Inserisci un numero');
     // CONTROLLO SE IL NUMERO INSERITO E' DISPARI//
-    if (num % 2 != 0) {
+   // if (num % 2 != 0) {
         //AGGIUNGO IL NUMERO ALL'ARRAY//
-        numbers.push(num);
-    }
+       // numbers.push(num);
+   // }
     
-}
+//}
 
 //MOSTRO L'ARRAY//
-console.log(numbers);
+//console.log(numbers);
+
+
+//SNACK 3//
+
+document.getElementById('send-number').addEventListener('click', function () {
+    
+    let num = document.getElementById('number').value;
+    //ASSEGNO VARIABILE CONTENENTE LA SOMMA DELLE CIFRE//
+    let somma = 0;
+    
+    for (let i = 0; i < num.length; i++) {
+        console.log(num[i]);
+    }
+});
